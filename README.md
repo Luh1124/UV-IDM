@@ -1,6 +1,6 @@
 # UV-IDM: Identity-Conditioned Latent Diffusion Model for Face UV-Texture Generation
 
-This repository contains the official code for the paper "[UV-IDM: Identity-Conditioned Latent Diffusion Model for Face UV-Texture Generation](https://link.to.paper)", presented at CVPR 2024.
+This repository contains the official code for the paper "[UV-IDM: Identity-Conditioned Latent Diffusion Model for Face UV-Texture Generation](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_UV-IDM_Identity-Conditioned_Latent_Diffusion_Model_for_Face_UV-Texture_Generation_CVPR_2024_paper.pdf)", presented at CVPR 2024.
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 [![CVPR 2024](https://img.shields.io/badge/CVPR-2024-red.svg)](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_UV-IDM_Identity-Conditioned_Latent_Diffusion_Model_for_Face_UV-Texture_Generation_CVPR_2024_paper.pdf)

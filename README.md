@@ -22,7 +22,6 @@ This repository contains the official code for the paper "[UV-IDM: Identity-Cond
 
 
 ## Table of Contents
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
@@ -46,7 +45,10 @@ To install this project, clone it using Git and install the dependencies:
 git clone https://github.com/username/UV-IDM.git
 cd UV-IDM
 pip install -r requirements.txt
+```
+
 ## Requirements
+
 Please first download our checkpoint file in this link [google-link](https://drive.google.com/drive/folders/1ZgKWL_7aFnSUiCZTt6YVCT3oSxwBwTEn?usp=sharing), and place them in the folder.
 - uv_idm_main/
     - checkpoints/
@@ -60,7 +62,9 @@ Please first download our checkpoint file in this link [google-link](https://dri
         A suitable environment named `ldm` can be created
         and activated with:
 
-```
+## Environment
+
+```bash
 conda env create -f environment.yaml
 conda activate ldm
 git clone https://github.com/NVlabs/nvdiffrast
@@ -73,14 +77,45 @@ We recommend you to generate a filelist that contains the absolute path of your 
 A possible demo is in test_imgs.
 Our network will generate three output, containing the render image, UV map and obj file.
 
-## Quick start
+### Quick start
 
 
 You can start with our provided example by:
 CUDA_VISIBLE_DEVICES=0 python scripts/visualize.py --images_list_file test.txt --outdir test_imgs/output
 
-## Start with your own imgs
+### Start with your own imgs
 CUDA_VISIBLE_DEVICES=0 python scripts/visualize.py --images_list_file your_txt_list --outdir your_output_path
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Luh1124/UV-IDM&type=Date)](https://star-history.com/#Luh1124/UV-IDM&Date)
 
 
+## Cite
+
+If you find UV-IDM useful for your research and applications, please cite us using this BibTeX:
+
+```bibtex
+@inproceedings{li2024uv,
+  title={UV-IDM: Identity-Conditioned Latent Diffusion Model for Face UV-Texture Generation},
+  author={Li, Hong and Feng, Yutang and Xue, Song and Liu, Xuhui and Zeng, Bohan and Li, Shanglin and Liu, Boyu and Liu, Jianzhuang and Han, Shumin and Zhang, Baochang},
+  booktitle=CVPR,
+  year={2024}
+}
+```
+
+## Train with UV-IDM
+
+Coming Soon.
+
+## Acknowledgements
+
+The work was supported by the following funding sources:
+
+- National Key Research and Development Program of China (2023YFC3300029)
+- Zhejiang Provincial Natural Science Foundation of China (LD24F020007)
+- Beijing Natural Science Foundation (L223024)
+- National Natural Science Foundation of China (62076016)
+- "One Thousand Plan" projects in Jiangxi Province (Jxsg2023102268)
+- Beijing Municipal Science & Technology Commission
+- Administrative Commission of Zhongguancun Science Park (Z231100005923035)

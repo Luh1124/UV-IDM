@@ -95,7 +95,7 @@ If you find UV-IDM useful for your research and applications, please cite us usi
 @inproceedings{li2024uv,
   title={UV-IDM: Identity-Conditioned Latent Diffusion Model for Face UV-Texture Generation},
   author={Li, Hong and Feng, Yutang and Xue, Song and Liu, Xuhui and Zeng, Bohan and Li, Shanglin and Liu, Boyu and Liu, Jianzhuang and Han, Shumin and Zhang, Baochang},
-  booktitle=CVPR,
+  booktitle={CVPR},
   year={2024}
 }
 ```

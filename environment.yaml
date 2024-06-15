@@ -1,4 +1,4 @@
-name: ldm
+name: uvidm
 channels:
   - pytorch
   - conda-forge

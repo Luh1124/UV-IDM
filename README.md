@@ -18,6 +18,7 @@ This repository contains the official code for the paper "[UV-IDM: Identity-Cond
 
 - [ ] Update Gradio demo
 - [ ] Release datasets
+- [ ] Release train code
 - [x] Release infer code
 
 
@@ -33,9 +34,7 @@ This repository contains the official code for the paper "[UV-IDM: Identity-Cond
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-* Python 3.8+ installed.
 * Ensure you have GPU(s) with CUDA support (NVIDIA recommended).
-* Install the necessary Python packages (listed in `requirements.txt`).
 
 ## Installation
 
@@ -66,7 +65,7 @@ Please first download our checkpoint file in this link [google-link](https://dri
 
 ```bash
 conda env create -f environment.yaml
-conda activate ldm
+conda activate uvidm
 git clone https://github.com/NVlabs/nvdiffrast
 pip install -e nvdiffrast
 ```

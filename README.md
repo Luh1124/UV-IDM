@@ -21,16 +21,6 @@ This repository contains the official code for the paper "[UV-IDM: Identity-Cond
 - [ ] Release train code
 - [x] Release infer code
 
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -49,7 +39,8 @@ pip install -r requirements.txt
 ## Requirements
 
 Please first download our checkpoint file in this link [google-link](https://drive.google.com/drive/folders/1ZgKWL_7aFnSUiCZTt6YVCT3oSxwBwTEn?usp=sharing), and place them in the folder.
-- uv_idm_main/
+
+- ./
     - checkpoints/
         - ...
     - pretrained/
@@ -58,10 +49,10 @@ Please first download our checkpoint file in this link [google-link](https://dri
         - ...
     - third_party/
         - ...
-        A suitable environment named `ldm` can be created
-        and activated with:
+
 
 ## Environment
+We recommend using Anaconda for environment and package management.
 
 ```bash
 conda env create -f environment.yaml
@@ -69,7 +60,6 @@ conda activate uvidm
 git clone https://github.com/NVlabs/nvdiffrast
 pip install -e nvdiffrast
 ```
-
 
 ## Test with UV-IDM
 We recommend you to generate a filelist that contains the absolute path of your images.
@@ -80,10 +70,14 @@ Our network will generate three output, containing the render image, UV map and 
 
 
 You can start with our provided example by:
+```bash
 CUDA_VISIBLE_DEVICES=0 python scripts/visualize.py --images_list_file test.txt --outdir test_imgs/output
+```
 
 ### Start with your own imgs
+```bash
 CUDA_VISIBLE_DEVICES=0 python scripts/visualize.py --images_list_file your_txt_list --outdir your_output_path
+```
 
 ## Star History
 

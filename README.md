@@ -33,10 +33,9 @@ To install this project, clone it using Git and install the dependencies:
 ```bash
 git clone https://github.com/username/UV-IDM.git
 cd UV-IDM
-pip install -r requirements.txt
 ```
 
-## Requirements
+### Requirements
 
 Please first download our checkpoint file in this link [google-link](https://drive.google.com/drive/folders/1ZgKWL_7aFnSUiCZTt6YVCT3oSxwBwTEn?usp=sharing), and place them in the folder.
 
@@ -51,7 +50,7 @@ Please first download our checkpoint file in this link [google-link](https://dri
         - ...
 
 
-## Environment
+### Environment
 We recommend using Anaconda for environment and package management.
 
 ```bash
@@ -62,6 +61,10 @@ pip install -e nvdiffrast
 ```
 
 ## Dataset
+
+Coming Soon.
+
+## Train with UV-IDM
 
 Coming Soon.
 
@@ -97,12 +100,9 @@ If you find UV-IDM useful for your research and applications, please cite us usi
   author={Li, Hong and Feng, Yutang and Xue, Song and Liu, Xuhui and Zeng, Bohan and Li, Shanglin and Liu, Boyu and Liu, Jianzhuang and Han, Shumin and Zhang, Baochang},
   booktitle={CVPR},
   year={2024}
-}
+
 ```
 
-## Train with UV-IDM
-
-Coming Soon.
 
 ## Acknowledgements
 

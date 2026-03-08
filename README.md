@@ -4,7 +4,8 @@ This repository contains the official code for the paper "[UV-IDM: Identity-Cond
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 [![CVPR 2024](https://img.shields.io/badge/CVPR-2024-red.svg)](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_UV-IDM_Identity-Conditioned_Latent_Diffusion_Model_for_Face_UV-Texture_Generation_CVPR_2024_paper.pdf)
-[![Dataset](https://img.shields.io/badge/Dataset-Coming_Soon-lightgrey.svg)](#)
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/luh0502/UV-IDM)
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/luh0502/UV-IDM-dataset)
 
 
 
@@ -37,7 +38,7 @@ cd UV-IDM
 
 ### Requirements
 
-Please first download our checkpoint file in this link [google-link](https://drive.google.com/drive/folders/1ZgKWL_7aFnSUiCZTt6YVCT3oSxwBwTEn?usp=sharing), and place them in the folder.
+Please first download our checkpoint file from [🤗 Hugging Face](https://huggingface.co/luh0502/UV-IDM) or [Google Drive](https://drive.google.com/drive/folders/1ZgKWL_7aFnSUiCZTt6YVCT3oSxwBwTEn?usp=sharing), and place them in the folder.
 
 - ./
     - checkpoints/
@@ -62,7 +63,7 @@ pip install -e nvdiffrast
 
 ## Dataset
 
-Coming Soon.
+The BFM-UV dataset is available on Hugging Face: [🤗 luh0502/UV-IDM-dataset](https://huggingface.co/datasets/luh0502/UV-IDM-dataset)
 
 ## Train with UV-IDM
 
